@@ -1,0 +1,286 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf460
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 /* replace the aqua green background with something that matches your color scheme.*/\
+#header \{\
+  /*you can use .pngs with alpha transparency since you dont have to worry about IE6*/\
+  background-color: #448aff;\
+\}\
+\
+/*replace the "Canvas" logo with your school's*/\
+#header-logo, #header.no-user #header-logo \{\
+  background: url("header_logo_wa.png?v1") no-repeat scroll 0 0 transparent;\
+  bottom: 10px;\
+  height: 50px;\
+  left: 6px;\
+  width: 191px;\
+\}\
+/* if you are going to replace the Canvas logo on the top left with your school's, \
+you should move a (smaller) Cavas logo to the right side of the header'*/\
+#header-logo-secondary \{\
+  /* note, you should set up you webserver to set the right headers to cache these \
+     images you link to for a long time (eg: 1 year) and change the querystring \
+     (the part that says "?v1") to force users to download a new version if you \
+     change it, see: http://developer.yahoo.com/performance/rules.html#expires */\
+  background: url("") no-repeat scroll 0 0 transparent;\
+  bottom: 11px;\
+  height: 26px;\
+  position: absolute;\
+  right: 26px;\
+  width: 135px;\
+  display: block;\
+\}\
+/*make room for the menu since my sample logo is bigger than default canvas logo*/\
+#menu\{ margin-left: 200px; \}\
+\
+/*make the menu lettering white and make it go back to grey when you hover over*/\
+.menu-item .menu-item-title, .menu-item .menu-item-no-drop \{ color: #FFFFFF; \}\
+.menu-item.hover .menu-item-title \{ color: #555555; \}\
+\
+/*style the #identity (the thing that says "Ryan Shaw | inbox | profile | logout | (feedback)" in top right) */\
+#identity \{ background-color: #666666; \}\
+#identity a \{ color: #fff; \}\
+#identity #feedback_link\{ border-color: #333; background-color: #333; \}\
+#identity .inbox a .unread-messages-count \{ background-color: #333; \}\
+\
+#modal-box \{\
+  background: url("login-bg.jpg?v1") no-repeat !important; /* This will pick up your custom image */\
+  color: #FFFFFF !important; /* The color of the text on the login page */\
+  /*height: 400px !important; /* Optional I changed the height of the original image which was 687x396 */\
+\}\
+\
+#flash_notice_message,  #flash_error_message \{ background-color: #666666 !important; \} /*  Changes the background color of the flash notice. This is what you see  at the top of the page when you login. */\
+\
+#footer \{ margin: 0px auto !important; \} /* Optional I moved the footer to be more consistent with our look. */\
+.forgot_password_link  \{display: none;\} /* Optional I hide the Forgot your Password link  because we are using LDAP. We are still discussing whether or not this  is a good idea. This means that anyone with a canvas internal account  won't be able to change their password. */\
+\
+/*#modal-box h2 \{ margin: 55px 10px 0; \} /* Optional login-bg.jpg is also used on the confirm registration page. Our logo is in the upper left and the text on the page overlapped it so I moved the whole registration form down.*/\'ef\'bb\'bf*/\
+\
+\
+#identity \{ background: none; \}\
+\
+body.modal #modal-box.login-box h1 \{\
+  background: none; \
+\}\
+\
+body.modal #modal-box.login-box \{\
+  height: 350px;\
+  width: 642px; \
+\}\
+/* replace the aqua green background with something that matches your color scheme.*/\
+#header \{\
+  color: #f34235;\
+\}\
+ \
+/*replace the "Canvas" logo with your school's*/\
+#header-logo, #header.no-user #header-logo \{\
+  background: url("http://i.cubeupload.com/HvvUCm.png") no-repeat scroll 0 0 transparent;\
+  bottom: 10px;\
+  height: 50px;\
+  left: 6px;\
+  width: 191px;\
+\}\
+/* if you are going to replace the Canvas logo on the top left with your school's,\
+you should move a (smaller) Cavas logo to the right side of the header'*/\
+#header-logo-secondary \{\
+  /* note, you should set up you webserver to set the right headers to cache these\
+     images you link to for a long time (eg: 1 year) and change the querystring\
+     (the part that says "?v1") to force users to download a new version if you\
+     change it, see: http://developer.yahoo.com/performance/rules.html#expires */\
+  background: url("") no-repeat scroll 0 0 transparent;\
+  bottom: 11px;\
+  height: 26px;\
+  position: absolute;\
+  right: 26px;\
+  width: 135px;\
+  display: block;\
+\}\
+/*make room for the menu since my sample logo is bigger than default canvas logo*/\
+#menu\{ margin-left: 200px; \}\
+ \
+/*make the menu lettering white and make it go back to grey when you hover over*/\
+.menu-item .menu-item-title, .menu-item .menu-item-no-drop \{ color: #FFFFFF; \}\
+.menu-item.hover .menu-item-title \{ color: #555555; \}\
+ \
+/*style the #identity (the thing that says "Ryan Shaw | inbox | profile | logout | (feedback)" in top right) */\
+ \
+#identity a \{ color: #fff; \}\
+#identity #feedback_link\{ border-color: #333; background-color: #333; \}\
+#identity .inbox a .unread-messages-count \{ background-color: #333; \}\
+ \
+#modal-box \{\
+  background: url("http://i.cubeupload.com/LYQZIS.png") no-repeat !important; /* This will pick up your custom image */\
+  color: #FFFFFF !important; /* The color of the text on the login page */\
+  /*height: 400px !important; /* Optional I changed the height of the original image which was 687x396 */\
+\}\
+ \
+#flash_notice_message,  #flash_error_message \{ background-color: #666666 !important; \} /*  Changes the background color of the flash notice. This is what you see  at the top of the page when you login. */\
+ \
+#footer \{/* margin: 0px auto !important; *//* top: 500px; */\} /* Optional I moved the footer to be more consistent with our look. */\
+.forgot_password_link  \{display: none;\} /* Optional I hide the Forgot your Password link  because we are using LDAP. We are still discussing whether or not this  is a good idea. This means that anyone with a canvas internal account  won't be able to change their password. */\
+ \
+/*#modal-box h2 \{ margin: 55px 10px 0; \} /* Optional login-bg.jpg is also used on the confirm registration page. Our logo is in the upper left and the text on the page overlapped it so I moved the whole registration form down.*/\'c3\'af\'c2\'bb\'c2\'bf*/\
+ \
+ \
+#identity \{ background: none; \}\
+ \
+body.modal #modal-box.login-box h1 \{\
+  background: none;\
+\}\
+ \
+body.modal #modal-box.login-box \{\
+  height: 570px;\
+  width: 670px;\
+\}\
+ \
+\}\
+ \
+.register_banner \{\
+    padding-top: 10px;\
+    width: 232px;\
+    height: 52px;\
+    right: -13px;\
+    top: 75px;\
+\}\
+ \
+ \
+.recent-activity-header:after\{\
+  display:block;\
+  visibility:hidden;\
+  position:absolute;\
+  z-index:1000;\
+  margin-top:-6px;\
+  margin-left:32px;\
+  padding:12px;\
+  background-color:rgba(79,77,192,0.0);\
+  border:none;\
+  border-radius:2px;\
+  color:rgba(255,255,255,0);\
+  content: url('http://i.cubeupload.com/MZKPQn.png');\
+  text-align:center;\
+  letter-spacing:1px;\
+  font-weight:400;\
+  font-size:13px;\
+  transition:all .25s ease;\
+  pointer-events:none\
+  \}\
+ \
+.recent-activity-header:hover:after\{\
+  visibility:visible;\
+  background-color:rgba(79,77,192,0.9);\
+  color:#FFF;\
+  margin-left:48px;\
+  \}\
+  \
+.register_banner\{\
+  top: 75px;\
+\}\
+\
+#header\{\
+  top:20px;\
+  left: 1.25%;\
+  right:auto\
+  transform: translate(-50%, -50%);\
+  width: 97.5%;\
+  position:fixed;\
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);\
+  transition: all 0.2s ease-in-out;\
+\}\
+\
+#header:hover\{\
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);\
+\}\
+\
+#main\{\
+  top:110px;\
+  left: 1.25%;\
+  width: auto;\
+  background-color: rgba(0, 0, 0,0)\
+\}\
+\
+#not_right_side\{\
+  left: 1.5%;\
+  padding-bottom: 20px;\
+  width: 100%;\
+  margin-right: auto;\
+\}\
+\
+#right-side\{\
+  left:10px;\
+  padding-left: 18px;\
+  padding-right: 18px;\
+  padding-bottom: 10px;\
+  min-width: 316px;\
+  background-color:white;\
+  width: 280px;\
+  top: -13px;\
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);\
+  transition: all 0.2s ease-in-out;\
+\}\
+\
+#right-side:hover\{\
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);\
+\}\
+\
+#content\{\
+  left: 2.5%;\
+  padding-top: 0px;\
+  padding-left: 20px;\
+  padding-right: 20px;\
+  padding-bottom: 20px;\
+  background-color: white;\
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);\
+  transition: all 0.2s ease-in-out;\
+\}\
+\
+#content:hover\{\
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);\
+\}\
+\
+#right-side h2, #right-side .h2\{\
+  padding-top: 18px;\
+  padding-bottom: 18px;\
+  font-size: 18px;\
+  font-weight: normal;\
+  color: black;\
+\}\
+\
+.stream_header\{\
+  padding-bottom: 9px;\
+\}\
+\
+.recent-activity-header\{\
+  padding-bottom: 9px;\
+\}\
+\
+#right-side .right-side-list.to-do-list li a.item:hover\{\
+ background:#f0faff; \
+\}\
+\
+#identity\{\
+  border-top-left-radius: 10px;\
+  border-top-right-radius: 10px;\
+  border-bottom-left-radius: 10px;\
+  border-bottom-right-radius: 10px;\
+  margin-bottom:0px;\
+  margin-top: 20px;\
+  height: 30px;\
+  background-color: white;\
+\
+\}\
+\
+#identity a \{\
+  color: #0081bd;\
+\}\
+\
+#identity .user_name a\{\
+  color: black;\
+  text-weight: bold;\
+\}\
+\
+.with-right-side #main\{\
+  margin-right: 406px;\
+\}}
