@@ -1,0 +1,336 @@
+#header{
+  background-color: #263238;
+  width:98%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 0px;
+  position: fixed;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.2s ease-in-out;
+}
+
+#header:hover{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#identity{
+  background-color: #26a69a;
+  border-radius: 15px;
+  margin-left:20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height:30px;
+  width: auto;
+}
+
+#identity a{
+  font-family: "Roboto";
+  text-transform: uppercase;
+}
+
+#identity li{
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+#identity .user_name{
+  margin-right: 0px;
+  font-weight: bold;
+}
+
+#identity .user_name:after{
+  content: "|";
+  font-weight: normal;
+  margin-left: 7px;
+}
+
+#identity li#identity-help-container{
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+#identity #identity-help-container a{
+  padding-left:5px;
+  padding-right: 0px;
+}
+
+#identity .inbox a .unread-messages-count{
+  background-color: #607D8B;
+  height: 15px;
+  width: auto;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 15px;
+}
+
+#main{
+  width: 98%;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+#breadcrumbs{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: white;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+#content-wrapper{
+  background-color: rgba(236, 240, 241,0.0);
+  background: rgba(236, 240, 241,0.0);
+}
+
+#not_right_side{
+  background-color: rgba(236, 240, 241,0.0);
+}
+
+#wrapper{
+  background-color: rgba(236, 240, 241,0.0);
+  width: 98%;
+  margin-left: 1% !important;
+  margin-right: 1%;
+  position: relative;
+  top: 85px;
+}
+
+#main{
+  background-color: rgba(236, 240, 241,0.0);
+}
+
+.with-right-side #main{
+  margin-right: 323px;
+  margin-left: 0px;
+  width: auto;  
+}
+
+#content{
+  background-color: white;
+  width: auto;
+}
+
+nav#breadcrumbs{
+  margin-left: 15px;
+}
+
+div#left-side.list-view{
+  position: relative;
+  background-color: white;
+  margin-right: 15px;
+  margin-left: 0px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+
+}
+
+/* Do Something with this later */
+.header-bar{
+  border-bottom: 0px solid rgba(236, 240, 241,0.0);
+  background-color: rgba(236, 240, 241,0.0);
+  min-height: 0px;
+  padding: 0px;
+}
+
+#context_modules{
+  background-color: rgba(236, 240, 241,0.0);
+}
+
+#content{
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.item-group-container .item-group-condensed{
+  margin-bottom: 15px;
+  border-bottom: 2px solid #BDBDBD;
+  padding: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: white;
+  
+}
+
+.item-group-container{
+  background-color: rgba(236, 240, 241,0.0);
+}
+
+ul.ig-list items context_module_items{
+}
+
+.item-group-condensed .ig-list li:first-child .ig-row, .item-group-condensed .ig-list li:first-of-type .ig-row, .item-group-condensed .first_visible .ig-row{
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-top: 0px solid rgba(236, 240, 241,0.0);
+}
+
+.item-group-condensed .ig-row{
+  border-radius: 0;
+  background: #fff;
+  border-bottom: 0px solid rgba(236, 240, 241,0.0);
+}
+
+.ig-list .ig-row{
+  color: rgba(236, 240, 241,0.0);
+  border-bottom: 1px solid #E0E0E0;
+  border-left: 0px solid rgba(236, 240, 241,0.0);
+  border-right: 0px solid rgba(236, 240, 241,0.0);
+}
+
+.item-group-condensed .ig-list li:last-child .ig-row, .item-group-condensed .ig-list li:last-of-type .ig-row, .item-group-condensed .last_visible .ig-row{
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom: 0px solid rgba(236, 240, 241,0.0);
+}
+
+.with-left-side #main{
+  margin-left: 185px;
+  margin-right: 324px;
+  width: auto;
+
+}
+
+#right-side{
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  min-width: 280px;
+  background-color:white;
+  width: 280px;
+  top: -13px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  margin-right: 0px;
+  transition: all 0.2s ease-in-out;
+}
+
+#footer::after{
+  display: block;
+  width: 240px;
+  height: 20px;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  text-align: -webkit-center;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  content: "Material Theme by: Jake Lamb | @J2R7L2";
+  letter-spacing: .2px;
+  color: white;
+  background-color: #607D8B;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+#footer::before{
+  display: block;
+  width: 550px;
+  height: 20px;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  text-align: -webkit-center;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  content: "Wheaton Academy Senior Prank - 2016";
+  color: white;
+  background-color: #283593;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+body.modal #footer{
+  width:550px;
+}
+
+#application{
+  margin-top: 15px;
+}
+
+.pages.show .course-title{
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: "Roboto";
+}
+
+#right-side .button-sidebar-wide{
+
+}
+
+.btn, .Button, .ui-button{
+  background: #26a69a;
+  color: #fff;
+  border: 0px solid rgba(236, 240, 241,0.0);
+  transition: background-color 0.2s ease-in-out;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center !important;
+  letter-spacing: .5px;
+  border: none;
+  border-radius: 2px;
+  height: 36px;
+  line-height: 36px;
+  outline: 0;
+  padding: 0 2rem;
+  text-transform: uppercase;
+  transition: .2s ease-out;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.btn:hover, .Button:hover, .ui-button:hover, .ui-button.ui-state-hover{
+  box-shadow:0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
+  color: #fff;
+  background-color:#2bbbad;
+}
+
+#right-side .button-sidebar-wide i[class*=icon-]:before, #right-side .button-sidebar-wide #breadcrumbs>ul>li+li:before, #right-side .button-sidebar-wide i[class^=icon-]:before{
+  color: #fff;
+}
+
+#right-side button.button-sidebar-wide{
+  margin-left: 0px;
+}
+
+body{
+  font-family: "Roboto";
+}
+
+#right-side h2, #right-side .h2{
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+#footer{
+  margin-left: 0px;
+}
+
+.with-left-side #footer{
+  margin-left: 200px;
+}
+
+/* PRANK REGION */
+.recent-activity-header:before{
+  display: block;
+  width: 728px;
+  margin-left: auto;
+  margin-right:auto;
+  content: url('https://d37p6u34ymiu6v.cloudfront.net/44/1b/51/441b5174e3b00bf96eb3ecc250bc2445.jpg');
+}
+
+/* GRADE CHANGE PRANK
+.student_assignment.final_grade span.grade{
+  color: rgba(236, 240, 241,0.0);
+}
+
+.student_assignment.final_grade span.grade:before{
+  content: "52%";
+  color: black;
+}
+*/
