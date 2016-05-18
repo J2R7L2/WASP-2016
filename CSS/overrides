@@ -16,7 +16,7 @@
 #identity{
   background-color: #26a69a;
   border-radius: 15px;
-  margin-left:20px;
+  margin-left:20px;aa
   margin-right: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -101,19 +101,13 @@
   background-color: rgba(236, 240, 241,0.0);
 }
 
-.with-right-side #main{
-  margin-right: 323px;
-  margin-left: 0px;
-  width: auto;  
-}
-
 #content{
   background-color: white;
   width: auto;
 }
 
 nav#breadcrumbs{
-  margin-left: 15px;
+  margin-left: 200px;
 }
 
 div#left-side.list-view{
@@ -188,9 +182,15 @@ ul.ig-list items context_module_items{
 
 .with-left-side #main{
   margin-left: 185px;
-  margin-right: 324px;
+  margin-right: 0px;
   width: auto;
 
+}
+
+.with-right-side #main{
+  margin-right: 323px;
+  margin-left: 0px;
+  width: auto;  
 }
 
 #right-side{
