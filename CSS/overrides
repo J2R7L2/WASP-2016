@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Roboto;
+  src: url(@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,300);
+}
+
 #header{
   background-color: #263238;
   background: url(http://i.cubeupload.com/eeRKsQ.png);
@@ -70,7 +75,7 @@
 
 #breadcrumbs{
   margin-top: 15px;
-  /* margin-left: 15px; */
+
   margin-bottom: 15px;
   background-color: white;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
@@ -96,6 +101,8 @@
 
 #main{
   background-color: rgba(236, 240, 241,0.0);
+  top: 0px !important;
+  min-height: 500px !important;
 }
 
 #content{
@@ -415,7 +422,7 @@ ul.message-detail-actions.pull-right.unstyled{
 }
 */
 
-/* Login Page*/
+/* Login Page */
 body.modal #modal-box.login-box{
   width:620px;
   height:620px;
@@ -434,17 +441,12 @@ body.modal #modal-box.login-box:hover{
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 /*
-.clearfix{
-  width: 600px;
-  height: 100px !important; 
-}*/
-
 .span4{
   width: 600px;
   height: 100px !important;
   margin-bottom: 150px !important;
 }
-
+*/
 body.modal #modal-box.login-box h1 {
   background: none; 
 }
@@ -509,6 +511,7 @@ body.modal #modal-box .btn:hover {
 body.modal #modal-box.login-box a{
   color: #1B5E20;
   font-family: "Roboto";
+  top: -60px;
 }
 
 body.webkit #modal-box.login-box input.text{
@@ -566,6 +569,11 @@ span.field-with-fancyplaceholder label.placeholder{
 
 body.no-headers #content, body.embedded #content{
   background: url("http://i.cubeupload.com/y8D4fy.png");
+}
+
+#modal-box-inner{
+  top: 125px;
+  position: relative;
 }
 
 /*Logo Swap*/
